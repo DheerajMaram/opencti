@@ -1,0 +1,7 @@
+opencti:
+  url: "http://localhost:8080"
+  token: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+
+defaults:
+  label: "SOC-LAB"
+  confidence: 75

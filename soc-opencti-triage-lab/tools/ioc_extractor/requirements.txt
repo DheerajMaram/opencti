@@ -1,0 +1,3 @@
+# IOC Extractor — standard library only; no dependencies required.
+# This file is present for consistency. Install with: pip install -r requirements.txt
+# (pip will install nothing)

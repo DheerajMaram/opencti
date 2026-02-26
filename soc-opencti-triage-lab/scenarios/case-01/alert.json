@@ -1,0 +1,13 @@
+{
+  "name": "Suspicious PowerShell Network Activity",
+  "description": "PowerShell process spawned by Office application with encoded command and outbound connection to non-corporate IP.",
+  "severity": "HIGH",
+  "host": "CORP-FIN-042",
+  "user": "jdoe",
+  "timestamp": "2024-01-15T14:32:11.000Z",
+  "rule": {
+    "name": "Suspicious PowerShell Network Activity",
+    "id": "siem-ps-network-001",
+    "mitre": "T1566.001"
+  }
+}

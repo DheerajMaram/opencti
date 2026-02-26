@@ -1,0 +1,10 @@
+{
+  "ips": ["31.13.64.35", "91.92.109.55", "192.168.10.5", "192.168.10.25", "194.165.16.75"],
+  "domains": ["g.api.mega.co.nz", "lockbit3.onion.pet", "storage.mega.nz"],
+  "urls": ["https://lockbit3.onion.pet/tools/lb3.ps1"],
+  "hashes": [
+    "c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9",
+    "c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7"
+  ],
+  "emails": []
+}

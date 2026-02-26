@@ -1,0 +1,5 @@
+#separator \x09
+#fields ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+1708410902.800	lb1	192.168.10.5	50100	10.0.0.1	53	udp	1	0.04	lockbit3.onion.pet	1	C_INTERNET	1	A	0	NOERROR	T	T	T	F	0	91.92.109.55	600.000000	F
+1708410962.600	lb2	192.168.10.25	50101	10.0.0.1	53	udp	2	0.05	g.api.mega.co.nz	1	C_INTERNET	1	A	0	NOERROR	T	T	T	F	0	31.13.64.35	300.000000	F
+1708410963.700	lb3	192.168.10.25	50102	10.0.0.1	53	udp	3	0.03	storage.mega.nz	1	C_INTERNET	1	A	0	NOERROR	T	T	T	F	0	31.13.64.35	300.000000	F

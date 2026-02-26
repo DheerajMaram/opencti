@@ -1,0 +1,13 @@
+{
+  "name": "Malicious npm Package - Supply Chain Compromise",
+  "description": "Wiz + GitHub Advanced Security: postinstall script from npm package initiated outbound connection and attempted credential exfiltration on build server.",
+  "severity": "CRITICAL",
+  "host": "CORP-BUILD-SRV02",
+  "user": "cicd-runner",
+  "timestamp": "2024-03-10T11:22:00.000Z",
+  "rule": {
+    "name": "Supply Chain - Malicious npm Package",
+    "id": "wiz-npm-supply-001",
+    "mitre": "T1195.001"
+  }
+}

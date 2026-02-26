@@ -1,0 +1,12 @@
+{
+  "ips": ["185.220.101.47", "192.168.1.105", "45.142.212.100"],
+  "domains": ["c2beacon.top-server.net", "update.evil-domain.ru"],
+  "urls": ["https://185.220.101.47/stage2/payload.bin"],
+  "hashes": [
+    "7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
+    "7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b",
+    "a1b2c3d4e5f607182936455647384950",
+    "a1b2c3d4e5f607182936455647384950a1b2c3d4e5f607182936455647384950"
+  ],
+  "emails": []
+}

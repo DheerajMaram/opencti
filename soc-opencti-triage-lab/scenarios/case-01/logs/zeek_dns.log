@@ -1,0 +1,5 @@
+#separator \x09
+#fields ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+1634567531.123	abc1	192.168.1.105	54321	10.0.0.1	53	udp	1	0.05	update.evil-domain.ru	1	C_INTERNET	1	A	0	NOERROR	T	T	T	F	0	185.220.101.47	300.000000	F
+1634567591.456	abc2	192.168.1.105	54322	10.0.0.1	53	udp	2	0.03	c2beacon.top-server.net	1	C_INTERNET	1	A	0	NOERROR	T	T	T	F	0	45.142.212.100	300.000000	F
+1634567651.789	abc3	192.168.1.105	54323	10.0.0.1	53	udp	3	0.02	c2beacon.top-server.net	1	C_INTERNET	1	A	0	NOERROR	T	T	T	F	0	45.142.212.100	300.000000	F

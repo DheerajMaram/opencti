@@ -1,0 +1,13 @@
+{
+  "ips": ["198.51.100.42", "203.0.113.88"],
+  "domains": ["exfil.attacker-infra.com"],
+  "urls": [
+    "https://198.51.100.42/payload/rs.sh",
+    "https://exfil.attacker-infra.com/drop?token=abc123"
+  ],
+  "hashes": [
+    "d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6",
+    "e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2"
+  ],
+  "emails": ["colorsutils.dev@protonmail.com"]
+}
